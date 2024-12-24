@@ -1,6 +1,6 @@
 {
 	"name": "@arobida/llmate",
-	"version": "1.0.0",
+	"version": "1.0.01",
 	"description": "A CLI tool for analyzing, summarizing, and ingesting code repositories, designed to work with both local directories and GitHub repositories.",
 	"exports": "./mod.ts",
 	"imports": {
