@@ -1,6 +1,6 @@
 # llmate
 
-A CLI tool for analyzing and ingesting code repositories, designed to work with both local directories and GitHub repositories.
+A CLI tool for analyzing, summarizing, and ingesting code repositories, designed to work with both local directories and GitHub repositories.
 
 ## Features
 
