@@ -1,0 +1,22 @@
+{
+	"name": "@arobida/llmate",
+	"version": "1.0.0",
+	"exports": "./mod.ts",
+	"imports": {
+		"@cliffy/command": "jsr:@cliffy/command@^1.0.0-rc.7",
+		"@std/path": "jsr:@std/path@^0.218.2",
+		"@std/fs": "jsr:@std/fs@^0.218.2"
+	},
+	"tasks": {
+		"dev": "deno run --allow-read --allow-write --allow-net --allow-run mod.ts",
+		"test": "deno test --allow-read --allow-write --allow-net --allow-run",
+		"compile": "deno compile --allow-read --allow-write --allow-net --allow-run mod.ts"
+	},
+	"fmt": {
+		"include": ["src/", "test/", "mod.ts"],
+		"indentWidth": 2,
+		"lineWidth": 80,
+		"semiColons": true,
+		"singleQuote": true
+	}
+}
